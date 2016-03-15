@@ -1,0 +1,20 @@
+/**
+ * Created by leon on 16/3/15.
+ */
+
+.ion-saimple-tab .button-bar div{
+    background: #F8F8F8;
+}
+
+.ion-saimple-tab .button-bar div.active{
+    background: white;
+    color: #0088CC;
+}
+
+.ion-saimple-tab .button-bar > .button:first-child, .button-bar > .button:last-child{
+    border-radius: 0;
+}
+
+.ion-saimple-tab .button.active, .button.activated{
+    box-shadow: none !important;
+}
